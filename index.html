@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZARDMA - Wear Your Story</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#fdf8f6;font-family:Inter,sans-serif;color:#111}
+h1,h2{font-family:'Playfair Display',serif}
+.header{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:white;border-bottom:1px solid #eee;position:sticky;top:0}
+.logo{letter-spacing:.35em;font-weight:700;font-size:22px}
+.hero{display:grid;grid-template-columns:1fr 1fr;min-height:85vh}
+.hero-left{padding:80px}
+.hero h2{font-size:72px;line-height:.9;margin:0 0 20px}
+.btn{background:black;color:white;padding:14px 28px;border:none;cursor:pointer}
+.grid{padding:40px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card img{width:100%;height:420px;object-fit:cover}
+.footer{background:black;color:white;padding:40px;display:grid;grid-template-columns:2fr 1fr 1fr;gap:20px}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.hero h2{font-size:48px}}
+</style>
+</head>
+<body>
+<div class="header"><div class="logo">ZARDMA</div><div>NEW IN | COLLECTION | SALE</div><div>Cart (0)</div></div>
+<div class="hero">
+<div class="hero-left">
+<p style="letter-spacing:.4em;font-size:11px">SUMMER 2026</p>
+<h2>Wear Your<br>Story</h2>
+<p style="color:#666;max-width:380px">Modern modest fashion inspired by Pakistani heritage. Handcrafted embroidery, breathable fabrics, timeless silhouettes.</p>
+<br><button class="btn">Explore Collection</button>
+</div>
+<div style="background:url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800') center/cover"></div>
+</div>
+<div style="padding:20px 40px;display:flex;justify-content:space-between"><h2 style="font-size:36px">Curated for You</h2><a href="#">View All</a></div>
+<div class="grid">
+<div class="card"><img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500"><p>Noor Kurta Set<br><small>Rs. 5,990</small></p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=500"><p>Zeenat Dress<br><small>Rs. 8,490</small></p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=500"><p>Sahar Lawn<br><small>Rs. 4,290</small></p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1605763241588-35ea5b0f8f00?w=500"><p>Mahnoor Festive<br><small>Rs. 12,990</small></p></div>
+</div>
+<div class="footer">
+<div><div class="logo" style="color:white">ZARDMA</div><p style="color:#aaa">Modern womenswear brand<br>Live: http://zardma-chic-emporium.lovable.app</p></div>
+<div>SHOP<br><span style="color:#aaa">All Products<br>New Arrivals</span></div>
+<div>CONNECT<br><span style="color:#aaa">Instagram<br>Contact Us</span></div>
+</div>
+</body>
+</html>
